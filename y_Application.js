@@ -15,10 +15,10 @@ const node = document.getElementById("image-head");
 const cycleImages = (images, container, step) => {
     images.forEach((image, index) => (
     setTimeout(() => {
-        container.style.backgroundImage = `linear-gradient(-225deg, rgba(0, 101, 168, 0.4) 0%, rgba(117, 117, 117, 0.65) 50%), url(${image})`  
+        container.style.backgroundImage = `linear-gradient(-225deg, rgba(161, 161, 161, 0.65) 0%, rgba(64, 88, 104, 0.12) 50%), url(${image})`  
     }, step * (index + 1))
   ))
   setTimeout(() => cycleImages(images, container, step), step * images.length)
 }
 
-cycleImages(yImages, node, 3000)
+cycleImages(yImages, node, 5000)
