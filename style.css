@@ -5,7 +5,7 @@ body {
 }
 
 .navbar-custom {
-    font-size: 20px;
+    font-size: 18px;
     background-color: #f8eee7;
 }
 
@@ -15,4 +15,9 @@ body {
 
 .navbar-custom a:hover {
     color: #e7d4c6;
+}
+
+.navbar-logo {
+    height: 30px;
+    background-color: #f8eee7;
 }
