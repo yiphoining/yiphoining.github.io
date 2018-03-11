@@ -6,18 +6,27 @@ body {
 
 .navbar-custom {
     font-size: 18px;
-    background-color: #f8eee7;
+    background-color: #f8eee7!important;
 }
 
 .navbar-custom a {
-    color: #938478;
+    color: #938478!important;
 }
 
 .navbar-custom a:hover {
-    color: #e7d4c6;
+    color: #e7d4c6!important;
 }
 
 .navbar-logo {
     height: 30px;
     background-color: #f8eee7;
+}
+
+.nav-item-custom {
+    padding: 10.8px;
+}
+
+.navbar-nav > li{
+  margin-left:10.8px;
+  margin-right:10.8px;
 }
