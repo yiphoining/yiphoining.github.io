@@ -7,7 +7,7 @@ body {
     background-color: #f8eee7;
     color: #35373a;
     min-height: 100vh;
-    padding: 30px 50px;
+    padding: 10px 10px;
 }
 
 .gallery-container h1 {
@@ -46,8 +46,9 @@ body {
     margin-left: -13px;
     opacity: 0;
     color: #fff;
-    font-size: 26px;
-    content: '\e003';
+    /*font-size: 26px;
+    font-family: 'fas fa-search';
+    content: '\e003';*/
     pointer-events: none;
     z-index: 9000;
     transition: 0.4s;
