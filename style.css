@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Amiri');
+@import url('https://fonts.googleapis.com/css?Cormorant+Garamond');
 
 body {  
-    font-family: 'Amiri', serif;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #f8eee7;
 }
 
 .navbar-custom {
@@ -34,14 +35,13 @@ body {
 .motto {
     height: 200px;
     line-height: 50px;
-    background-color: #f8eee7;
+    background-color: #FFF8F9;
     text-align: center;
     vertical-align: middle;
 }
 
 .motto-text {
-    font-size: 25px;
-    background-color: #f8eee7;
+    font-size: 28px;
     color: #938478;
 }
 
